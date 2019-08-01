@@ -1,0 +1,54 @@
+//pseudocodenya terlalu mirip dengan kodingan. coba ikuti referensi di foxhub yang algoritma
+
+//maaf kak semoga sesuai yang di harapkan ya
+
+
+1. Newton Second Law
+
+STORE "massa" with 600
+STORE "percepatan" with 2 
+STORE "gaya" without value
+
+CALCULATE "massa" times "percepatan"
+SET "gaya" with value Calculation Result
+
+DISPLAY "gaya"
+
+
+
+
+2. Tahun Kabisat
+
+STORE "tahun" with any value
+STORE "hasil" without value
+
+if "tahun mod 4=0 and tahun mod 100 != 0" or "tahun mod 4=0 and tahun mod 100=0 and tahun mod 400=0"
+  DO hasil = Kabisat
+ELSE
+  DO hasil = Not Kabisat
+
+DISPLAY hasil
+
+
+
+3. Laundry Day
+STORE "baju" with any value
+STORE "nyala" with any value
+STORE "hidup" without value
+
+IF "baju" with 20
+	DO "nyala"  with "ON"
+Else IF "baju < 20 OR baju = 0
+	DO "nyala" with "OFF"
+Else 
+	DO "nyala" with "error"
+
+4. Periksa Kuku
+
+Store "siswa" with 40
+Store "kuku" without value
+
+IF "siswa" 1-40 Kuku=Panjang
+	DO menghukum siswa/siswi
+else
+	DO memuji siswa/siswi
