@@ -12,7 +12,7 @@ var rows2=5;
 var string1 ='';
 for(var a=1;a<=rows2;a++){
     for(var b=1;b<=rows2;b++){
-        string1 += '*';
+        string1 = '*';
     }
     string1 += '\n';
 }
