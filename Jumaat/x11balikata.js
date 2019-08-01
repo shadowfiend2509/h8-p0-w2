@@ -1,4 +1,4 @@
-/* 
+
 var kata
 
 function balikKata(kata) {
@@ -24,7 +24,3 @@ function balikKata(kata) {
   console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
   console.log(balikKata('Super')); 
 
-*/
-
-
-BELOM KELAR
