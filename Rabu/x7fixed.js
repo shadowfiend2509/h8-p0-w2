@@ -16,7 +16,7 @@ console.log('\n');
 var rows2=5;
 var asterisk ='';
 for(var kiri1=1;kiri1<=rows2;kiri1++){
-    for(var atas=1;atas<=lebar;atas++){
+    for(var atas=1;atas<=rows2;atas++){
         asterisk = asterisk + '*';
     }
     asterisk += '\n';
