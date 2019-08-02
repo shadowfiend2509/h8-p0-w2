@@ -1,26 +1,13 @@
-
-var kata
-
 function balikKata(kata) {
-    var resultkata=''
-    var lengthresultkata=resultkata.length
-    var lengthkata=kata.length
-
-    for(var i=1 ; i<= lengthkata ; i--){
-        if(lengthresultkata===0){
-            resultkata=kata.charAt(lengthkata -i)
-            lengthresultkata=1
-        }else{
-            resultkata = resultkata + kata.charAt(lengthkata-i)
-        }
-        return resultkata
+    var hasilkata=''
+    for(var i=kata.length ; i>=0 ;i--){
+      console.log(i)
+      hasilkata+=kata[i]
     }
-    }
+    return hasilkata
+}
 
   // TEST CASES
-  console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
-  console.log(balikKata('John Doe')); // eoD nhoJ
-  console.log(balikKata('I am a bookworm')); // mrowkoob a ma I
-  console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
-  console.log(balikKata('Super')); 
+  console.log(balikKata(' halo my name is eric'))
+  console.log(balikKata('Super')); //repus
 

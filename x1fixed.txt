@@ -2,6 +2,7 @@
 
 //maaf kak semoga sesuai yang di harapkan ya
 
+//di conditional masih salah jangan pake =, tapi pake equals to. dan ngga ada tanda sampai -. laundry day perlu di looping. yang "" hanya variable atau string
 
 1. Newton Second Law
 
@@ -22,26 +23,22 @@ DISPLAY "gaya"
 STORE "tahun" with any value
 STORE "hasil" without value
 
-if "tahun mod 4=0 and tahun mod 100 != 0" or "tahun mod 4=0 and tahun mod 100=0 and tahun mod 400=0"
-  DO hasil = Kabisat
+if (tahun mod 4 equals to 0 and tahun mod 100 equals to 0 or tahun mod 4 equals to 0 and tahun mod 100 equals to 0 and tahun mod 400 equals to 0)
+  DO hasil equals to Kabisat
 ELSE
-  DO hasil = Not Kabisat
+  DO hasil equals to Not Kabisat
 
 DISPLAY hasil
 
 
 
 3. Laundry Day
-STORE "baju" with any value
-STORE "nyala" with any value
-STORE "hidup" without value
+STORE 'baju' with any value
 
-IF "baju" with 20
-	DO "nyala"  with "ON"
-Else IF "baju < 20 OR baju = 0
-	DO "nyala" with "OFF"
-Else 
-	DO "nyala" with "error"
+WHILE 'baju' smaller equal to 20 
+ADD baju by 1
+
+DISPLAY 'mesin cuci hidup'
 
 4. Periksa Kuku
 
