@@ -1,11 +1,11 @@
 function bandingkanAngka(angka1, angka2) {
-    var Hasil;
+    var Hasil='';
     if(angka1<angka2){
-        Hasil = 'True';
+        Hasil=true;
     }else if(angka1==angka2){
-        Hasil = '-1';
+        Hasil=-1;
     }else {
-        Hasil = 'False';
+        Hasil=false;
     }
     return Hasil;
   }
