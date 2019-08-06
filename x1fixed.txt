@@ -45,7 +45,7 @@ DISPLAY 'mesin cuci hidup'
 Store "siswa" with 40
 Store "kuku" without value
 
-IF "siswa" 1-40 Kuku=Panjang
+IF "siswa" 1 to 40 Kuku equal to Panjang
 	DO menghukum siswa/siswi
 else
 	DO memuji siswa/siswi
